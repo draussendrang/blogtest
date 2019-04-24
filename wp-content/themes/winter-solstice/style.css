@@ -1,0 +1,22 @@
+.site-branding {text-align: center;}
+.site-title {text-transform: none;font-size: 28px;font-size: 1.8rem;}
+.site-title {}
+.navigation-top > .wrap {display: table;width: 100%;max-width: 100%;padding-left: 30px;padding-right: 30px;}
+.title-area, .main-navigation {vertical-align: middle;display: table-cell;}
+body .site-title, body.has-header-image .site-title, body.has-header-video .site-title, body .site-title a, body.has-header-image .site-title a, body.has-header-video .site-title a {display: inline-block;color: #444;padding: 0;letter-spacing: normal;}
+.site-description, body.has-header-image .site-description, body.has-header-video .site-description {opacity: 1;font-weight: 700;text-shadow: 0 0 6px #000;}
+.site-branding h1, .site-branding h2, .site-branding h3, .site-branding p {color: #fff;opacity: 1;text-shadow: 0 0 6px #000;}
+#top-menu {text-align: right;}
+#top-menu ul {text-align: left;}
+.menu-toggle .icon {margin-right: 0;height: 1.4em;width: 1.4em;}
+.site-info {float: none;width: 100%;text-align: center;}
+.site-info p {margin: 0;}
+@media screen and ( max-width: 767px) {#top-menu {position: absolute;z-index: 33;width: 100%;left: 0;text-align: left;}
+	.main-navigation {text-align: right;}
+	.js .menu-toggle {display: inline-block;}
+	.menu-toggle {padding: 1em 0;margin: 2px 0 2px;}
+	.menu-toggle:focus {outline: none;}}
+@media screen and ( min-width: 30em) {.site-branding {padding: 6em 0;}}
+@media screen and ( min-width: 48em) {.site-description {font-size: 32px;}
+	.copyright {float: left;}
+	.credit {float: right;}}
